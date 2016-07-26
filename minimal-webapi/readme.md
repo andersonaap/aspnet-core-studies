@@ -5,7 +5,9 @@
 - `curl http://localhost:5000/api/values`
 - add in project json   "Microsoft.AspNetCore.Mvc.Formatters.Xml" : "1.0.0",
 
-### responding xml 
+
+
+## responding xml 
 - add  .AddXmlSerializerFormatters();
 ```csharp
 public void ConfigureServices(IServiceCollection services)
